@@ -31,6 +31,8 @@ if hitung_luas_segitiga:
     luas_sgitiga = (1/2) * alas * tinggi
     st.write("luas segitiga adalah:",luas_sgitiga)
 
+st.write("---")
+
 #persegi panjang
 st.write("Persegi Panjang")
 panjang = st.number_input("Masukkan panjang segitiga", min_value = 0, max_value = 999999999999)
