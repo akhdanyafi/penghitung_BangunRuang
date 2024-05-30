@@ -10,13 +10,13 @@ Selamat datang di aplikasi penghitung bangun ruang \n
 
 #persegi
 st.write("Persegi")
-sisi = st.number_input("Masukkan sisi persegi:", 0 )
+sisi = st.number_input("Masukkan sisi persegi: ", 0 )
 
-hitung_luas = st.button("hitung luas persegi")
+hitung_luas = st.button("hitung luas")
 
 if hitung_luas:
     luas_persegi = sisi * sisi
-    st.write("luas persegi adalah",luas_persegi)
+    st.write("luas persegi adalah: ",luas_persegi)
 
 st.write("---")
 
@@ -25,7 +25,7 @@ st.write("Segitiga")
 alas = st.number_input("Masukkan Alas Segitiga:",0)
 tinggi = st.number_input("Masukkan Tinggi Segitiga:",0)
 
-hitung_luas_segitiga = st.button("hitung luas segitiga")
+hitung_luas_segitiga = st.button("hitung luas")
 
 if hitung_luas_segitiga:
     luas_sgitiga = (1/2) * alas * tinggi
